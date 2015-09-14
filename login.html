@@ -3,6 +3,10 @@
 	<head>
 		<title>Vancouver Ultimate League</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+
 	</head>
 	<body>
 		<header>
@@ -11,52 +15,67 @@
 			<a href="https://www.vul.ca/">
 			<img src="https://www.vul.ca/sites/default/files/VUL_logo_website.png"
 			id="picture1"></a>
-
-			<h2>Login</h2>
-			<form method="POST" action="login.html">
-				<label for="email">Email:</label>
-				<input type="text" id="email" name="email" />
+		</header>
+			<!-- Login Form! -->
+			
+			<section>
+			<h2 id="login">Login</h2>
+			<form method="POST" action="/login">
+				<label for="email"></label>
+				<input type="text" id="email" name="email" placeholder="Email" />
 				<br />
 
-				<label for="password">Password:</label>
-				<input type="password" id="password" name="password" />	
+				<label for="password"></label>
+				<input type="password" id="password" name="password" placeholder="Password" />	
 				<br />
 
-				<input type="submit" value="submit" />
+				<input id="submit" type="submit" value="submit" />
 
 				<br />
+			</section>
 
-				<h2>Register<h2>
-				<form method="POST" action="login.html">
-					<label for="firstname">First Name:</label>
-					<input type="text" id="firstname" name="firstname" />
+				<!-- Register! -->
 
+				<section id="Register">
+
+				<h2 id="title"> Register<h2>
+				<form method="POST" action="/signup">
+					
+					<label for="firstname"></label>
+					<input type="text" id="firstname" name="firstname" placeholder="First Name"/>
+
+					
+					<label for="lastname"></label>
+					<input type="lastname" id="lastname" name="lastname" placeholder="Last Name" />
+				
 					<br/>
-					<label for="lastname">Last Name:</label>
-					<input type="lastname" id="lastname" name="lastname" />
-					<br/>
 
+
+
+					<div id="gender">
 					<label for="gender">Gender:</label>
-					<input type="gender" id="gender" name="gender" />
+					
+					Male:<input type="radio" name="gender" value="Male" />
+					Female:<input type="radio" name"gender" value="Female" />
+
+				</div>
 
 					<br />
 
-					<label for="email">Email:</label>
-					<input type="text" id="email" name="email" placeholder="Only .com emails accepted" />
+					<label for="email"></label>
+					<input type="text" id="email2" name="email" placeholder="Only .com emaills accepted" />
 					<br/>
 
-					<label for="password">Password:</label>
-					<input type="password" id="password" name="password" />	
+					<label for="password"></label>
+					<input type="password" id="password2" name="password" placeholder="Password" />	
 					<br />
 
-					<input type="submit" value="submit" />
+					<input id="submit2" type="submit" value="submit" />
+				</form>
 
+					</section>
 
-
-
-
-
-				</header>
+						
 		
 	</body>
 </html>

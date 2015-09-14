@@ -1,11 +1,33 @@
 #sign-up {
 	background-color:#96CEE0;
 	color: black;
-	text-align: center;
+	
+}
+
+#login {
+	margin-left:12px;
+}
+
+#email {
+	margin-left:12px;
+}
+
+#password {
+	margin-left:12px;
+}
+
+#submit {
+	margin-left:16px;
 }
 
 #firstname {
-	font-size: medium;
+	margin-left:12px;
+	font-size: 50%;
+	
+}
+
+#lastname {
+	font-size: 50%;
 }
 
 #picture1 {
@@ -15,3 +37,43 @@
 body {
 	background-color: #96CEE0;
 }
+
+#Register {
+	width:450px;
+	padding: 10px;
+	background-color:#e6efee;
+}
+
+#Register h2 {
+	
+	margin-right:20px;
+
+}
+
+#title {
+	margin-left: 18px;
+	font-size: 150%;
+}
+
+#gender {
+	margin-left: 18px;
+	font-size: 50%;
+	line-height: 3em;
+}
+
+#email2 {
+	margin-left: 10px;
+	font-size: 50%;
+	line-height: 1em;
+}
+
+#password2 {
+	margin-left: 10px;
+	font-size: 50%;
+}
+
+#submit2 {
+	margin-left: 18px;
+	font-size: 50%
+}
+
